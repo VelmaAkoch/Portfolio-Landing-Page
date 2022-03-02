@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    padding: 20px;
+    align-items: center;
+    
+}
+.tabs{
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 30px;
+}
+.tabs a{
+    text-decoration: none;
+    font-weight: 900;
+    color: blue;
+    display: flex;
+    font-size: large;
+
+
+}
+.tabs li{
+    list-style: none;
+    /* display: flex; */
+}
