@@ -31,3 +31,23 @@
     list-style: none;
     /* display: flex; */
 }
+.description{
+    padding: 30px;
+    margin: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+} 
+.description p{
+    align-items: center;
+    padding: 30px;
+    font-size: xx-large;
+}
+.aboutme{
+    padding: 20px;
+    text-align: center;
+}
+.aboutme p{
+    padding: 20px;
+    font-size: x-large; 
+}
