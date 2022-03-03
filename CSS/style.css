@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #c4c4c4;
+}
 
 .navbar{
     display: flex;
@@ -46,6 +49,8 @@
 .aboutme{
     padding: 20px;
     text-align: center;
+    background-color: darkslategray;
+    color: bisque;
 }
 .aboutme p{
     padding: 20px;
@@ -61,16 +66,20 @@
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
+    color: black;
 }
 
 .head{
     text-align: center;
     padding: 20px;
     font-size: x-large;
+    background-color: rgb(102, 70, 70);
+    color: bisque;
+
 }
 
 .projects{
-    background-color: darkcyan;
+    background-color: rgb(102, 70, 70);
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -101,6 +110,9 @@
     font-size: x-large;
 
 }
+.contacts h3{
+    padding-bottom:20px;
+}
 .text{
     height: 5vh;
     size: 30vw;
@@ -110,4 +122,11 @@
 .#message{
     height: 5%;
 
+}
+.copyright{
+    text-align: center;
+    padding: 15px;
+    /* color: white; */
+    background-color: grey;
+    font-size: large;
 }
