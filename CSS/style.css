@@ -7,19 +7,22 @@ body{
     background-color: #c4c4c4;
 }
 
-.navbar{
+.navbar{ 
+    height: 50px;
+    padding: 20px; 
+    margin-bottom: 50px;
     display: flex;
-    justify-content: space-around;
-    background-color: crimson;
-    padding: 20px;
-    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+
     
 }
 .tabs{
+    width: 50vw;
     display: flex;
     float: right;
-    list-style: none;
-    padding: 30px;
 }
 .tabs a{
     text-decoration: none;
