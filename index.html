@@ -12,11 +12,10 @@
       <h3>Velma</h3>
       <div class="tabs">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Interests</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/#aboutme">About me</a></li>          
+          <li><a href="/#head">Projects</a></li>
+          <li><a href="/#contacts">Contact us</a></li>
         </ul>
       </div>
     </div>
@@ -31,7 +30,7 @@
         repellendus ullam id.
       </p>
     </div>
-    <div class="aboutme">
+    <div class="aboutme" id="aboutme">
       <h2>About Me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ex
@@ -87,12 +86,12 @@
       </div>
     </div>
 
-    <div class="head">
+    <div class="head" id="head">
       <h3>Projects</h3>
       <p>These are some of the projects that I have worked on.</p>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
       <div class="group1">
         <div class="project1">
           <h3>Cookie Recipe</h3>
@@ -154,19 +153,27 @@
       </div>
     </div>
 
-    <div class="contacts">
+    <div class="contacts" id="contacts">
         <h3>Get in touch with us</h3>
         <form action="#">
             <label for="fname">First Name</label><br>
-            <input type="text" name="fname" id="fname"><br>
+            <input type="text" name="fname" class="text" id="fname" required><br>
             <label for="sname">Second Name</label><br>
-            <input type="text" name="sname" id="sname"><br>
+            <input type="text" name="sname" class="text" id="sname" required><br>
             <label for="email">Email</label><br>
-            <input type="email" name="email" id="email"><br>
-            <input type="text" name="message" id="message"><br>
-            <button type="submit" value="Submit">Submit</button>
+            <input type="email" name="email" class="text" id="email" required><br>
+            <input type="text" name="message" class="text" id="message" req><br>
+            <button type="submit" value="Submit" class="btn">Submit</button>
+
             
         </form>
     </div>
+
+<div class="copyright">
+  <p>
+    copyright 2022. Velma Mukanga All Rights Reserved.
+  </p>
+</div>
+
   </body>
 </html>
