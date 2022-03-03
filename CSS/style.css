@@ -94,3 +94,20 @@
 
 
 }
+.contacts{
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+    font-size: x-large;
+
+}
+.text{
+    height: 5vh;
+    size: 30vw;
+    border-radius: 10px;
+    margin: 20px;
+}
+.#message{
+    height: 5%;
+
+}
